@@ -23,3 +23,16 @@ git commit -m "some message"
 git push
 
 ```
+
+## Create new branch
+
+```bash
+git checkout -b <branch-name>
+```
+
+## Switch branch while keeping commits
+
+```bash
+git switch -c <branch-name>
+
+```
