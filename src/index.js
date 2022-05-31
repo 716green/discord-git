@@ -6,4 +6,12 @@ app.get("/", (_req, res) => {
   res.json({ hello: "world!" });
 });
 
+app.get("/person", (_req, res) => {
+  res.json({
+    name: "Bob",
+    age: 31,
+    employed: true,
+  });
+});
+
 app.listen(port, () => console.log(`listening at http://localhost:${port}`));
