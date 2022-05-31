@@ -9,8 +9,8 @@ app.get("/", (_req, res) => {
 app.get("/person", (_req, res) => {
   res.json({
     name: "Bob",
-    age: 32,
-    employed: false,
+    age: 31,
+    employed: true,
   });
 });
 
