@@ -9,7 +9,7 @@ app.get("/", (_req, res) => {
 app.get("/person", (_req, res) => {
   res.json({
     name: "Bob",
-    age: 31,
+    age: 29,
     employed: false,
   });
 });
