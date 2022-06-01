@@ -10,6 +10,22 @@ app.get("/person", (_req, res) => {
   res.json({
     name: "Bob",
     age: 29,
+    employed: false,
+  });
+});
+
+app.get("/third", (_req, res) => {
+  res.json({
+    name: "Sam",
+    age: 22,
+    employed: false,
+  });
+});
+
+app.get("/personA", (_req, res) => {
+  res.json({
+    name: "Terrence",
+    age: 50,
     employed: true,
   });
 });
